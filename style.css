@@ -13,8 +13,8 @@
     background-color: #fff;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 300px;
+    border: 2px solid #888;
+    width: 500px;
     text-align: center;
 }
 .close {
@@ -525,7 +525,7 @@ img{
     }
   }
   #av{
-    background-color: white;
+    background-color: #F5DFE2;
     width: 10%;
     border-radius: 16px;
     text-align: center;
@@ -698,6 +698,8 @@ img{
   }
 .card1 {
   margin: auto;
+  right: 500px;
+  top: 50px;
   position: relative;
   width: 300px;
   height: 200px;
@@ -760,6 +762,7 @@ img{
 }
 .card2 {
   margin: auto;
+  bottom: 150px;
   position: relative;
   width: 300px;
   height: 200px;
@@ -831,6 +834,8 @@ img{
 }
 .card3 {
   margin: auto;
+  left: 500px;
+  bottom: 350px;
   position: relative;
   width: 300px;
   height: 200px;
@@ -893,6 +898,8 @@ img{
 }
 .card4 {
   margin: auto;
+  right: 500px;
+  bottom: 300px;
   position: relative;
   width: 300px;
   height: 200px;
@@ -955,6 +962,7 @@ img{
 }
 .card5 {
   margin: auto;
+  bottom: 500px;
   position: relative;
   width: 300px;
   height: 200px;
@@ -1016,6 +1024,8 @@ img{
   line-height: 1.4;
 }
 .card6 {
+  left: 500px;
+  bottom: 700px;
   margin: auto;
   position: relative;
   width: 300px;
@@ -1078,6 +1088,8 @@ img{
   line-height: 1.4;
 }
 .card7 {
+  right: 500px;
+  bottom: 650px;
   margin: auto;
   position: relative;
   width: 300px;
@@ -1141,6 +1153,7 @@ img{
 }
 .card8 {
   margin: auto;
+  bottom: 850px;
   position: relative;
   width: 300px;
   height: 200px;
@@ -1202,6 +1215,8 @@ img{
   line-height: 1.4;
 }
 .card9 {
+  left: 500px;
+  bottom: 1050px;
   margin: auto;
   position: relative;
   width: 300px;
@@ -1264,6 +1279,8 @@ img{
   line-height: 1.4;
 }
 .card10 {
+  bottom: 1000px;
+  right: 250px;
   margin: auto;
   position: relative;
   width: 300px;
@@ -1326,6 +1343,8 @@ img{
   line-height: 1.4;
 }
 .card11 {
+  bottom: 1200px;
+  left: 250px;
   margin: auto;
   position: relative;
   width: 300px;
@@ -1387,6 +1406,10 @@ img{
   color: #777;
   line-height: 1.4;
 }
+#mem{
+  bottom: 1000px;
+  position: relative;
+}
 
 
 
@@ -1400,7 +1423,9 @@ img{
 
 
 /* From Uiverse.io by alexruix */ 
-.memoria {
+.memoria1 {
+  right: 500px;
+  bottom: 900px;
   margin: auto;
   color: #1b1b1b;
   width: 190px;
@@ -1450,15 +1475,15 @@ img{
 
 
 /*Hover*/
-.memoria:hover {
+.memoria1:hover {
   background-color: #1b1b1b25;
 }
 
-.memoria:hover .card-front {
+.memoria1:hover .card-front {
   transform: translateX(-100%);
 }
 
-.memoria:hover .card-back {
+.memoria1:hover .card-back {
   transform: translateX(0);
 }
 
@@ -1473,5 +1498,469 @@ img{
   align-items: center;
   height: 25vh;
 }
+
+.memoria2 {
+  bottom: 1185px;
+  margin: auto;
+  color: #1b1b1b;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #F5DFE2, #F9EDED);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.memoria2:hover {
+  background-color: #1b1b1b25;
+}
+
+.memoria2:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.memoria2:hover .card-back {
+  transform: translateX(0);
+}
+
+#rec{
+  width: 100%;
+  height: 100%;
+  position: relative; top: -25px;
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+/* */
+.memoria3 {
+  bottom: 1465px;
+  left: 500px;
+  margin: auto;
+  color: #1b1b1b;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #F5DFE2, #F9EDED);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.memoria3:hover {
+  background-color: #1b1b1b25;
+}
+
+.memoria3:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.memoria3:hover .card-back {
+  transform: translateX(0);
+}
+
+#rec{
+  width: 100%;
+  height: 100%;
+  position: relative; top: -25px;
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+/* */
+.memoria4 {
+  right: 500px;
+  bottom: 1400px;
+  margin: auto;
+  color: #1b1b1b;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #F5DFE2, #F9EDED);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.memoria4:hover {
+  background-color: #1b1b1b25;
+}
+
+.memoria4:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.memoria4:hover .card-back {
+  transform: translateX(0);
+}
+
+#rec{
+  width: 100%;
+  height: 100%;
+  position: relative; top: -25px;
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+
+/* */
+.memoria5 {
+  bottom: 1680px;
+  margin: auto;
+  color: #1b1b1b;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #F5DFE2, #F9EDED);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.memoria5:hover {
+  background-color: #1b1b1b25;
+}
+
+.memoria5:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.memoria5:hover .card-back {
+  transform: translateX(0);
+}
+
+#rec{
+  width: 100%;
+  height: 100%;
+  position: relative; top: -25px;
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+/* */
+.memoria6{
+  left: 500px;
+  bottom: 1965px;
+  margin: auto;
+  color: #1b1b1b;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #F5DFE2, #F9EDED);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.memoria6:hover {
+  background-color: #1b1b1b25;
+}
+
+.memoria6:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.memoria6:hover .card-back {
+  transform: translateX(0);
+}
+
+#rec{
+  width: 100%;
+  height: 100%;
+  position: relative; top: -25px;
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+#eldia{
+  position: relative;
+  bottom: 1900px;
+}
+
+/* */
+.memoria7 {
+  bottom: 1850px;
+  margin: auto;
+  color: #1b1b1b;
+  width: 190px;
+  height: 254px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #F5DFE2, #F9EDED);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  bottom: 16px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+
+/*Hover*/
+.memoria7:hover {
+  background-color: #1b1b1b25;
+}
+
+.memoria7:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.memoria7:hover .card-back {
+  transform: translateX(0);
+}
+
+#rec{
+  width: 100%;
+  height: 100%;
+  position: relative; top: -25px;
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
 
 
