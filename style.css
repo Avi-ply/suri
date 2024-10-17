@@ -1,3 +1,4 @@
+
 .modal {
     display: none;
     position: fixed;
@@ -208,10 +209,120 @@
   font-size: 1rem;
   color: transparent;
 }
+.slider-container {
+  position: relative;
+  bottom: 1250px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fddcef;
+  font-family: "Karla", sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-text {
+  display: flex;
+  white-space: nowrap;
+  animation: slide 180s linear infinite;
+}
+
+.slider-text span {
+  padding-right: 50px; /* Espacio entre frases */
+}
+
+@keyframes slide {
+  from {
+      transform: translateX(0%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+
+/* SEGUNDO SLIDER */
+#text-slider-container {
+  position: relative;
+  bottom: 1700px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fddcef;
+  font-family: "Karla", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+#text-slider {
+  display: flex;
+  white-space: nowrap;
+  animation: slide-right 180s linear infinite;
+}
+
+#text-slider p {
+  padding-right: 50px; /* Espacio entre frases */
+}
+
+@keyframes slide-right {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0%);
+  }
+}
+html{
+  margin: auto;
+}
+
+.container {
+  background-color: #e5e5f7;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #e5e5f7 30px
+    ),
+    repeating-linear-gradient(#ffb5b58a, #ffb8b8);
+}
+
 
 
 body{   
-background-color: #dacaca;
+max-width: 1920px;
+
+}
+body, html{
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer{
+  margin-bottom: 400px;
+  height: 100px;
+  background-color: #DFACBD;
 }
 #av, h1{
     font-family: "Karla", sans-serif;
@@ -1411,6 +1522,10 @@ img{
   position: relative;
 }
 
+footer{
+  margin: 0;
+}
+
 
 
 
@@ -1962,5 +2077,32 @@ img{
   height: 25vh;
 }
 
+.arrow-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
 
+.arrow {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px dotted black;
+  border-color: transparent transparent black black;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-top: 10px solid black;
+  border-right: 10px solid black;
+  width: 0;
+  height: 0;
+  transform: rotate(45deg);
+}
 
